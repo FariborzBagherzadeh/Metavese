@@ -5,23 +5,16 @@ const Page = () => (
   <div className="bg-primary-black overflow-hidden ">
     <Navbar />
     <Hero />
-    <div className="relative">
-
-      <About />
-      <div className="gradient-03 z-0" />
-      <Explore />
-    </div>
-    <div className="relative">
-      <GetStarted />
-      <div className="gradient-04 z-0" />
-      <WhatsNew />
-    </div>
+    <About />
+    <div className="gradient-03 z-0" />
+    <Explore />
+    <GetStarted />
+    <div className="gradient-04 z-0" />
+    <WhatsNew />
     <World />
-    <div className="relative">
-      <Insights />
-      <div className="gradient-05 z-0" />
-      <Feedback />
-    </div>
+    <Insights />
+    <div className="gradient-05 z-0" />
+    <Feedback />
 
     <Footer />
   </div>
